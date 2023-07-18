@@ -68,6 +68,15 @@
 .banner-img img {
     padding: 30px 33px 31px 2px;
 }
+.sponsor{
+    text-align: center;
+    flex-wrap: wrap;
+    border-top: 2px solid  rgba(19, 19, 19, 0.1);
+    border-bottom: 2px solid  rgba(19, 19, 19, 0.1);
+}
+.sponsor img{
+    margin: 30px 30px;
+}
 
 
 
