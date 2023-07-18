@@ -56,6 +56,7 @@
     border-radius: 41px;
     background: #E02C6D;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .banner-img {
@@ -128,6 +129,25 @@
     margin-bottom: 0px;
 }
 
+.featured {
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+    margin: 100px auto;
+}
+
+.featured-title {
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.featured-description {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 
 
 @media screen and (max-width:576px) {
@@ -161,8 +181,14 @@
         height: 190px;
         padding: 51px 33px 16px 22px;
     }
-    .card-contant{
+
+    .card-contant {
         grid-template-columns: repeat(1, 1fr);
+        width: auto;
+    }
+    .featured{
+        flex-direction: column-reverse;
+        text-align: center;
         width: auto;
     }
 }
